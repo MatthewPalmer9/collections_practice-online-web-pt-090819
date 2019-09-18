@@ -26,3 +26,7 @@ end
 def find_a(array)
   array.find_all(){|el| el.start_with?("a")}
 end 
+
+def sum_array(array)
+  array.reduce(){|el| el
+end 
