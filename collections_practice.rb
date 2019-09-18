@@ -34,7 +34,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect(){ |el| el + "s"}
-  array[1] = "feet"
-  return array
+  newArray = array.collect(){ |el| el + "s"}
+  newArray[1] = "feet"
+  return newArray
 end 
