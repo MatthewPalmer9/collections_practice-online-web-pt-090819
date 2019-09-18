@@ -35,5 +35,5 @@ end
 
 def add_s(array)
   array.collect(){ |el| el + "s"}
-  array[1] -= "s"
+  array[1] -= "feet"
 end 
