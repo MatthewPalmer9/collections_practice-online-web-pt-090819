@@ -35,7 +35,7 @@ end
 
 def add_s(array)
   newArray = array.collect(){ |el| 
-    
+    if el =
   }
   newArray[1] = "feet"
   return newArray
